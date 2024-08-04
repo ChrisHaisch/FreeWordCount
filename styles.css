@@ -140,3 +140,16 @@ textarea {
     width: 0;
     transition: width 0.3s, background-color 0.3s;
 }
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+    .stats, .additional-info, .social-media {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+    }
+
+    .stats div, .additional-info div, .social-media div {
+        width: 100%; /* Make sure each stat takes full width */
+        margin-bottom: 10px; /* Add some space between elements */
+    }
+}

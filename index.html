@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AdSense script -->
+    <script data-ad-client="ca-pub-XXXXXXX" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                
+                <span>Free Word Count</span>
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Grammar Tools</a></li>
+                <li class="nav-item"><a href="#">Blog</a></li>
+                <li class="nav-item"><a href="#">FAQ</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Text Analysis Tool</h1>
+        <textarea id="textBox" placeholder="Type your text here..."></textarea>
+        <div class="stats">
+            <div>
+                <span>WORDS</span>
+                <span id="wordCount">0</span>
+            </div>
+            <div>
+                <span>CHARACTERS</span>
+                <span id="charCount">0</span>
+            </div>
+            <div>
+                <span>SENTENCES</span>
+                <span id="sentenceCount">0</span>
+            </div>
+            <div>
+                <span>PARAGRAPHS</span>
+                <span id="paragraphCount">0</span>
+            </div>
+            <div>
+                <span>PAGES</span>
+                <span id="pageCount">0</span>
+            </div>
+        </div>
+        <div class="additional-info">
+            <div>
+                <span>Reading Level</span>
+                <span id="readingLevel">Not available</span>
+            </div>
+            <div>
+                <span>Reading Time</span>
+                <span id="readingTime">0.00 min</span>
+            </div>
+            <div>
+                <span>Speaking Time</span>
+                <span id="speakingTime">0.00 min</span>
+            </div>
+        </div>
+        <div class="social-media">
+            <div class="social-media-item">
+                <i class="fab fa-facebook"></i>
+                <span id="facebookCount">0/250</span>
+                <div class="progress">
+                    <div id="facebookProgress" class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="social-media-item">
+                <i class="fab fa-twitter"></i>
+                <span id="twitterCount">0/280</span>
+                <div class="progress">
+                    <div id="twitterProgress" class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="social-media-item">
+                <i class="fab fa-google"></i>
+                <span id="googleCount">0/300</span>
+                <div class="progress">
+                    <div id="googleProgress" class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Example AdSense ad unit -->
+        <div class="ads">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-XXXXXXX"
+                data-ad-slot="XXXXXXX"
+                data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
